@@ -1,0 +1,12 @@
+# Copyright (c) 2022 Space Cubics, LLC.
+# SPDX-License-Identifier: Apache-2.0
+
+config LIBJANSSON2
+    bool "Enable libjansson2"
+    help
+      This option enables the libjansson2 as a Zephyr module.
+
+config APP_LINK_WITH_JANSSON2
+    bool "Make libjansson2 header file available to application"
+    default y
+    depends on LIBJANSSON2
