@@ -1,4 +1,4 @@
-if(CONFIG_LIBJANSSON)
+if(CONFIG_LIBJANSSON2)
   add_subdirectory(.. build)
   set_property(GLOBAL APPEND PROPERTY ZEPHYR_INTERFACE_LIBS libjansson2)
   #zephyr_include_directories(../include)
