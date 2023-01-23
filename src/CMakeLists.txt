@@ -1,4 +1,4 @@
-target_sources(libjansson2 PRIVATE
+target_sources(jansson2 PRIVATE
   dump.c
   error.c
   hashtable.c

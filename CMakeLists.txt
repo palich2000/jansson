@@ -1,11 +1,11 @@
-project(libjansson2)
+project(jansson2)
 cmake_minimum_required(VERSION 3.20)
 
-add_library(libjansson2)
-target_compile_options(libjansson2 PRIVATE -Wall -Wextra)
-set_target_properties(libjansson2 PROPERTIES C_STANDARD 11)
+add_library(jansson2)
+target_compile_options(jansson2 PRIVATE -Wall -Wextra)
+set_target_properties(jansson2 PROPERTIES C_STANDARD 11)
 
-target_include_directories(libjansson2 PUBLIC include)
+target_include_directories(jansson2 PUBLIC include)
 add_subdirectory(src)
 
 file(CONFIGURE OUTPUT .gitignore
