@@ -18,7 +18,7 @@
 #include <stdlib.h>
 #include <string.h>
 #ifdef HAVE_UNISTD_H
-#include <zephyr/posix/unistd.h>
+#include <unistd.h>
 #endif
 
 #include "jansson.h"
